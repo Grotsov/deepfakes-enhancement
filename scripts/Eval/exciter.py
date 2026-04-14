@@ -54,7 +54,7 @@ def process_dataset(input_base_dir: str, sr: int = 16000):
     """
     models = ["cosy_voice", "f5tts", "fish_speech", "mask_gct"]
     
-    print("\n⚙️ GENERATING TRADITIONAL DSP BASELINE (Harmonic Exciter)")
+    print("\nGENERATING TRADITIONAL DSP BASELINE (Harmonic Exciter)")
     print("=" * 65)
     
     for model in models:
@@ -86,7 +86,6 @@ def process_dataset(input_base_dir: str, sr: int = 16000):
                 print(f"Error processing {f}: {e}")
 
     print("=" * 65)
-    print("✅ Done! Traditional DSP baseline generation complete.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Apply DSP Harmonic Exciter as a baseline for deepfake enhancement.")

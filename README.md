@@ -4,7 +4,7 @@ This repository includes the scripts used in our research work. The provided inf
 
 * The `scripts` folder contains the scripts mentioned in the thesis text.
 * The `audio` folder contains several example audio files. If you want to check with other audio examples, you can access the whole dataset at: [4TTSDeepfakeData](https://huggingface.co/datasets/grotsoV/4TTSDeepfakeData).
-* The checkpoint weights for the Vocos model can be downloaded at [INSERT LINK HERE]. You just need to put them in the root folder of the repo.
+* The checkpoint weights for the Vocos model can be downloaded at [[4TTSDeepfakeDataVocosTrained](https://huggingface.co/grotsoV/4TTSDeepfakeDataVocosTrained)]. You just need to put them in the root folder of the repo.
 * The installation guide is presented in the sections below.
 
 ## Setup and Installation
